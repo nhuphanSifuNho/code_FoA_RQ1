@@ -1,0 +1,21 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# 1. Load Data
+df = pd.read_csv("FoAI_A2_data_4.6k.csv")
+
+# 2. CHECK AND CLEAN DATA
+# Check for duplicates
+initial_count = len(df)
+duplicate_count = df.duplicated().sum()
+
+if duplicate_count > 0:
+    print(f"Found {duplicate_count} duplicate rows. Removing them...")
+    df = df.drop_duplicates()
+    print(f"Row count dropped from {initial_count} to {len(df)}.")
+else:
+    print("No duplicates found.")
+
+# 3. Continue with Mappings and Visuals...
+# (Paste the rest of the mapping/plotting code here)

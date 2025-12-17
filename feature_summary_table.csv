@@ -1,0 +1,12 @@
+Feature,Type,Missing_Count,Missing_Pct,Unique_Values,Most_Common,Min,Max,Mean,Median
+work_year,int64,0,0.00%,6,2025,2020.0,2025.0,2023.5986218776916,2024.0
+experience_level,object,0,0.00%,4,SE,,,,
+employment_type,object,0,0.00%,4,FT,,,,
+job_title,object,0,0.00%,219,Data Scientist,,,,
+salary,int64,0,0.00%,1581,150000,14000.0,30400000.0,181164.13006029284,141135.0
+salary_currency,object,0,0.00%,19,USD,,,,
+salary_in_usd,int64,0,0.00%,1810,150000,15000.0,750000.0,148308.5906546081,140000.0
+employee_residence,object,0,0.00%,72,US,,,,
+remote_ratio,int64,0,0.00%,3,0,0.0,100.0,30.43712316968131,0.0
+company_location,object,0,0.00%,68,US,,,,
+company_size,object,0,0.00%,3,M,,,,

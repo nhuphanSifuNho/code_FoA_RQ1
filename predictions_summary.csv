@@ -1,0 +1,9 @@
+RQ,Scenario,Predicted_Salary
+RQ1,"Mid-level DS, US, On-site",137423.93770431948
+RQ1,"Mid-level DS, US, Remote",133413.34793089548
+RQ2,"Mid-level DS, India, Remote",81887.27469250227
+RQ2,"Mid-level DS, Poland, Remote",66573.82915069157
+RQ3,"1 Senior DS, US, Remote",167423.63306902398
+RQ3,"2 Mid DS, US, Remote",266826.69586179097
+RQ4,"10-person team, Traditional",1321555.683383839
+RQ4,"10-person team, Optimized",988813.9399084935
